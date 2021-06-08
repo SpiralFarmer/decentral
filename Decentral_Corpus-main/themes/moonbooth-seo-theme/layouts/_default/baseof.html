@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+{{- partial "head.html" . -}}
+
+    <body>
+        
+        <div id="overflow">
+            
+            <div id="wrapper">
+                
+                {{- partial "header.html" . -}}
+                
+                <main>
+                    {{- block "main" . }}
+                    {{- end }}
+                </main>
+                
+                {{- block "subscribe" . }}
+                {{- end }}
+                
+                {{- partial "footer.html" . -}}
+            
+            </div>{{/* end #wrapper */}}
+        
+        </div>{{/* end #overflow */}}
+
+        {{/* JavaScript files go here */}}
+	    {{ if (fileExists "static/scripts/custom.js") }}
+            <script src="/scripts/custom.js"></script>
+        {{ end }}
+
+        {{ with .Site.Params.scripts }}
+            {{ range . }}
+                <script src="{{ . }}"></script>
+            {{ end }}   
+        {{ end }}
+        {{/* end of JavaScript files */}}
+
+    </body>
+
+</html>

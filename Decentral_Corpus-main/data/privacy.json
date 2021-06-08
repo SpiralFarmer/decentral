@@ -1,0 +1,84 @@
+{
+   "policy": [
+      {
+         "head": "Information Collection And Use",
+		 "content": "<p>While using our Services, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. </p> <p>We collect this information for the purpose of providing the Services, identifying and communicating with you, responding to your requests/inquiries, servicing your purchase orders, and improving our services.</p>"
+      },
+      {
+         "head": "Log Data",
+		 "content": "<p>We collect information that your browser sends whenever you visit our Services (“Log Data”). This Log Data may include information such as your computer’s Internet Protocol (“IP”) address, browser type, browser version, the pages of our Services that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p> <p>In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this type of information in order to increase our Service’s functionality. These third party service providers have their own privacy policies addressing how they use such information.</p> <p>When you access the Services by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device’s unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, your location information and other statistics.</p>"
+      },
+      {
+         "head": "Cookies",
+		 "content": "<p>Cookies are files with a small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and transferred to your device. We use cookies to collect information in order to improve our Services for you.</p> <p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. The Help feature on most browsers provide information on how to accept cookies, disable cookies or to notify you when receiving a new cookie.</p> <p.If you do not accept cookies, you may not be able to use some features of our Services and we recommend that you leave them turned on.</p>"
+      },
+      {
+         "head": "Service Providers",
+		 "content": "<p>We may employ third party companies and individuals to facilitate our Services, to provide the Services on our behalf, to perform Service-related services and/or to assist us in analyzing how our Services are used.</p> <p>These third parties have access to your Personal Information only to perform specific tasks on our behalf and are obligated not to disclose or use your information for any other purpose.</p>"
+      },
+      {
+         "head": "Compliance With Laws",
+		 "content": "<p>We will disclose your Personal Information where required to do so by law or subpoena or if we believe that such action is necessary to comply with the law and the reasonable requests of law enforcement or to protect the security or integrity of our Services.</p>"
+      },
+      {
+         "head": "Business Transaction",
+		 "content": "<p>If Tapp Solutions, LLC is involved in a merger, acquisition or asset sale, your Personal Information may be transferred as a business asset. In such cases, we will provide notice before your Personal Information is transferred and/or becomes subject to a different Privacy Policy.</p>"
+      },
+      {
+         "head": "Security",
+		 "content": "<p>The security of your Personal Information is important to us, and we strive to implement and maintain reasonable, commercially acceptable security procedures and practices appropriate to the nature of the information we store, in order to protect it from unauthorized access, destruction, use, modification, or disclosure.</p> <p>However, please be aware that no method of transmission over the internet, or method of electronic storage is 100% secure and we are unable to guarantee the absolute security of the Personal Information we have collected from you.</p>"
+      },
+      {
+         "head": "Links To Other Sites",
+		 "content": "<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit.</p> <p>We have no control over, and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>"
+      },
+      {
+         "head": "Children’s Privacy",
+		 "content": "<p>Only persons age 18 or older have permission to access our Service. Our Service does not address anyone under the age of 13 (“Children”).</p> <p>We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you learn that your Children have provided us with Personal Information, please contact us. If we become aware that we have collected Personal Information from a children under age 13 without verification of parental consent, we take steps to remove that information from our servers.</p>"
+      },
+      {
+         "head": "Changes To This Privacy Policy",
+		 "content": "<p>This Privacy Policy is effective as of September 20, 2018,  and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p> <p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Services after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p><p>If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice in the app.</p>"
+      },
+      {
+         "head": "Types of information collected ",
+		 "content": "<p>There are two types of information collected on our sites: Personally Identifiable Information and Non-Personally Identifiable Information.</p> <p>Personally Identifiable Information</p>,p>Personally Identifiable Information (“personal information”) is information that identifies you as an individual, such as your name, mailing address, email address, date of birth, etc. Personal information is only obtained by us when you voluntarily provide the information to us. We do not collect, nor do we provide any other party with personal information from our sites’ visitors over time and across third party web sites.</p><p>Non-Personally Identifiable Information</p><p>Non-Personally Identifiable Information (“non-personal information”) is information that does not identify you as an individual, such as your browser type, IP Address, and the URL of the previous website you visited. We may automatically collect certain types of non-personal information from you when you visit our sites. We may also collect non-personal information that you voluntarily provide, such as information included in response to a questionnaire or survey.</p>"
+      },
+      {
+         "head": "Why we collect your information",
+		 "content": "<p>Tapp uses personal information it collects on our sites to better understand your needs and interests and to provide you with products and services, and features that we believe better meet your needs or requests. We only collect information that we consider necessary for achieving these purposes.</p>"
+      },
+      {
+         "head": "How we collect information",
+		 "content": "<p>Tapp collects on-line data when you provide information to us, such as through form submissions, or through the use of web and mobile technology.</p>"
+      },
+      {
+         "head": "Information Collected Through You",
+		 "content": "<p>If you choose to use certain services on our sites, we may require you to provide contact and identity information. Ordinarily, we indicate which fields are required and which fields are optional. If you choose not to use a particular service or feature, you do not have to provide the requested contact or identity information.</p>"
+      },
+      {
+         "head": "Embedded Pixels",
+		 "content": "<p>We may use embedded pixel technologies on selected pages for the purposes of identifying unique browser visits to our sites as opposed to aggregate hits. In addition, embedded pixels or other technologies may be used in emails to provide information on when the email was opened to track marketing campaign responsiveness. Information collected using these technologies may be associated with the recipient’s email address.</p>"
+      },
+      {
+         "head": "Who we share personal information with",
+		 "content": "<p>In the normal course of business, we may share personal information you provide to us on our sites and mobile applications among Tapp and its affiliated companies, including our banking affiliates. The type of information shared may include your name and other identifying information, as well as information about your transactions with us, such as your payment history.</p> <p>We may also share your personal information with third parties outside of Tapp and its affiliated companies, such as: (a) with insurance providers; (b) to process an insurance transaction that you request; (c) to service your account, such as paying a claim; (d) with contractors, service providers and other third parties to support our business and perform functions on our behalf; and (e) with other parties with whom we have joint marketing agreements.</p><p>We do not share medical information you provide to us, except to the extent we are required or permitted to share such information under federal or state law,  and to process an insurance transaction you request.</p>"
+      },
+      {
+         "head": "Disclosure of personal information for legal purposes and protection of Tapp and others",
+		 "content": "<p>We also reserve the right to share your personal information with third parties if we believe such action is necessary in order to: (a) conform with the requirements of any court order, law or legal process, including to respond to any government or regulatory request; (b) protect or defend our legal rights or property, our sites, or our users; or (c) investigate, prevent or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person or violations of the terms and conditions of using our sites and mobile applications.</p>"
+      },
+      {
+         "head": "Disclosure of non-personally identifiable information",
+		 "content": "<p>In the normal course of business, we may share non-personally identifiable information you provide to us on our sites and mobile applications among Tapp and its affiliated companies for statistic analysis. The type of information shared may include your IP address, geographic location and software usage data.</p>"
+      },
+      {
+         "head": "Your choices and opting out",
+		 "content": "<p>Except where we are required or permitted by law to share your personal information, you have the right to instruct us not to share your personal information. You also have the right to instruct us not to share information about your creditworthiness among our affiliates. If you choose to receive email messages from us, we may periodically send you email messages describing updates, new features or promotional offers. If you do not explicitly choose to receive informational emails, the only email messages you will receive from us will be in response to email inquiries that you send us.</p> <p>At any time, you can “opt-out” of receiving direct mail and marketing material from Tapp, such as product and service updates, by following the instructions included in your email or by sending a reply stating your request, and we will make the requested changes.</p>"
+      },
+      {
+         "head": "Acceptance of policy",
+		 "content": "<p>By visiting our sites, you are accepting the terms and conditions of this Policy, and we have the right to use your information as described in this Policy.</p><p>Tapp reserves the right to modify or amend this Policy at any time. Your continued use of our sites and mobile application after we post any changes to this Policy on our sites will constitute your acceptance of those changes, so please check the Policy periodically for updates.</p><p>The latest revision to this Policy occurred in <strong>September 20, 2018</strong>. Changes to this Policy will not affect our use of previously provided personal information.</p>"
+      }
+   ]
+}

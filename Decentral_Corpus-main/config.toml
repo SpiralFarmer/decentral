@@ -1,0 +1,14 @@
+baseurl = "/"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+
+env = "local"
+
+languageCode = " "
+title = "CFG"
+
+# Enable Google Analytics by entering your tracking code
+# googleAnalytics = "123"
+
+enableRobotsTXT = "true"

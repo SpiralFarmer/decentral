@@ -1,0 +1,46 @@
+{
+   "clients": [
+      {
+         "image": "/images/assurant.png" 
+      },
+      {
+         "image": "/images/cca.png" 
+      },
+      {
+         "image": "/images/intoxalock.png"
+      },
+      {
+         "image": "/images/LBL.png"
+      },
+      {
+         "image": "/images/cfg.png"
+      },      
+	   {
+         "image": "/images/iac.png"
+      },
+	   {
+         "image": "/images/lidp.png"
+      },
+	   {
+         "image": "/images/ngl.png"
+      },
+	   {
+         "image": "/images/oaic.png"
+      },
+	   {
+         "image": "/images/rna.png"
+      },
+     {
+         "image": "/images/AHL.png"
+      },
+     {
+         "image": "/images/lifeshield.png"
+      },
+     {
+         "image": "/images/texas-service-life.png"
+      },
+     {
+         "image": "/images/upstream-life.png"
+      }
+   ]
+}

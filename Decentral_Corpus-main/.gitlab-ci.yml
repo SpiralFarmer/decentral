@@ -1,0 +1,72 @@
+stages:
+  - build
+  - deploy
+
+.build_base: &build_base
+  stage: build
+  # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+  # image: registry.gitlab.com/pages/hugo:0.38.2
+  image: monachus/hugo
+  artifacts:
+    paths:
+      - public
+
+build:production:
+  <<: *build_base
+  script:
+  - date "+%Y" > copyright.year
+  - hugo -e "production" --config config.toml
+  - chmod -R u=rwX,og=rX ./public
+  only:
+   - master
+   
+build:staging:
+  <<: *build_base
+  script:
+  - date "+%Y" > copyright.year
+  - hugo -e "development" --config config.toml
+  - chmod -R u=rwX,og=rX ./public
+  only:
+   - dev
+
+.deploy_base: &deploy_base
+  stage: deploy
+  image: garland/aws-cli-docker
+
+deploy:production:
+  <<: *deploy_base
+  script:
+  - date "+%F_%T" > ./public/deploy.time
+  - aws s3 sync ./public s3://${PROD_AWS_BUCKET}/ --delete --cache-control "public, max-age=300, must-revalidate"
+  - for f in $(find public/ -name index.html); do
+       d=${f%/*} ; d=${d#public} ; d=${d#/} ;
+       if [[ ! -z ${d} ]]; then 
+          echo '<meta http-equiv="refresh" content="0; url=PATH/" /><body></body></html>' 
+          | sed -e "s:PATH:/${d}:" > ${d}.TEMP ;
+          aws s3 cp --content-type text/html ${d}.TEMP s3://${PROD_AWS_BUCKET}/${d} ;
+       fi
+    done
+
+  dependencies:
+   - build:production
+  only:
+   - master
+
+deploy:staging:
+  <<: *deploy_base
+  script:
+  - date "+%F_%T" > ./public/deploy.time
+  - aws s3 sync ./public s3://${DEV_AWS_BUCKET}/ --delete --cache-control "public, max-age=300, must-revalidate"
+  - for f in $(find public/ -name index.html); do
+       d=${f%/*} ; d=${d#public} ; d=${d#/} ;
+       if [[ ! -z ${d} ]]; then 
+          echo '<meta http-equiv="refresh" content="0; url=PATH/" /><body></body></html>' 
+          | sed -e "s:PATH:/${d}:" > ${d}.TEMP ;
+          aws s3 cp --content-type text/html ${d}.TEMP s3://${DEV_AWS_BUCKET}/${d} ;
+       fi
+    done
+  dependencies:
+   - build:staging
+  only:
+   - dev
+

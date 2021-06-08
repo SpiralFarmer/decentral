@@ -1,0 +1,33 @@
+{
+   "dates": [
+      {
+        "date": "January 1st - New Year's Day",
+		"icon": "/images/icn1.png"	 	 
+      },
+	  {
+		"date": "January 18th - Martin Luther King, Jr. Day",
+		"icon": "/images/icn2.png"			 
+	 },
+	 {
+		"date": "May 31st - Memorial Day ",
+		"icon": "/images/icn3.png"		 
+	 },
+	 {
+		"date": "July 5th - Independence Day",
+		"icon": "/images/icn4.png"	 
+	 },
+	 {
+		"date": "September 6th - Labor Day ",
+		"icon": "/images/icn5.png" 
+	 },
+	 {
+		"date": "November 25th & 26th - Thanksgiving",
+		"icon": "/images/icn6.png"
+	 },
+	 {
+		"date": "December 23rd & 24th - Christmas",
+		"icon": "/images/icn7.png"
+	 }
+   ]
+ 
+}

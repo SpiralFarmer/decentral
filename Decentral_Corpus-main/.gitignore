@@ -1,0 +1,7 @@
+public
+.settings/
+.DS_Store
+._.DS_Store
+._*
+deploy.time
+copyright.year
